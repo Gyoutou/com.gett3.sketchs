@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>sketch.basic</groupId>
+    <artifactId>sketch.basic</artifactId>
+    <version>0.0.1</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.6.RELEASE</version>
+    </parent>
+
+    <modules>
+        <module>sketch.basic.core</module>
+        <module>sketch.basic.online</module>
+
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>jp.gtf.kernel</groupId>
+            <artifactId>jp.gtf.kernel.lang</artifactId>
+            <version>[0.0.1, )</version>
+        </dependency>
+        <dependency>
+            <groupId>jp.gtf.kernel</groupId>
+            <artifactId>jp.gtf.kernel.processor</artifactId>
+            <version>[0.0.1, )</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>releases</id>
+            <name>mvn.gett3.com</name>
+            <url>http://mvn.gett3.com/nexus/content/repositories/releases/</url>
+        </repository>
+    </repositories>
+</project>
