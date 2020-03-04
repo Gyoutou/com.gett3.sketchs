@@ -8,8 +8,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 @EntityScan(basePackages = {
-		"jp.jphome.core.presistent.entity"})
+        jp.gtf.spring.core.Module.ENTITY,
+        "jp.jphome.core.presistent.entity"})
 @EnableJpaRepositories(basePackages = {
-		"jp.jphome.core.presistent.repository"})
+        jp.gtf.spring.core.Module.REPOSITORY,
+        "jp.jphome.core.presistent.repository"})
 public class JPAConfiguration {
 }

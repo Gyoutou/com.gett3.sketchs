@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: sketch.basic.online
 Implementation-Version: 0.0.1
-Built-By: FXD
+Built-By: F
 Implementation-Vendor-Id: sketch.basic
-Build-Jdk: 1.8.0_181
+Build-Jdk: 1.8.0_131
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
  ot-starter-parent/sketch.basic/sketch.basic.online
 Created-By: Maven Integration for Eclipse

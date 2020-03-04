@@ -6,6 +6,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(value = {
+        "jp.gtf.spring.core",
+        "jp.gtf.spring.config",
+        "jp.gtf.spring.online",
         "sketch.basic.online",
         "sketch.basic.online.online"})
 public class AppStart {
